@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("../fonts/icons.ttf?1ji0bd") format("truetype"), url("../fonts/icons.woff?1ji0bd") format("woff"), url("../fonts/icons.svg?1ji0bd#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^=_icon-]:before,
+[class*=" _icon-"]:before {
+  display: block;
+}
+
+._icon-Linkedin:before {
+  content: "";
+}
+
+._icon-Insta:before {
+  content: "";
+}
+
+._icon-Twitter:before {
+  content: "";
+}
+
+._icon-Fb:before {
+  content: "";
+}
